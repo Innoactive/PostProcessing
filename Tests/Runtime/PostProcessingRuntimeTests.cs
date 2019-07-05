@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using System;
 using NUnit.Framework;
 using UnityEngine;
@@ -82,3 +84,5 @@ class PostProcessingTests
         UnityEngine.Object.DestroyImmediate(profile);
     }
 }
+
+#endif
